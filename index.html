@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p class="head">Register</p>
+    <form action="">
+        <div><label for="name">Name</label><input type="text" id="name"></div>
+        <div><label for="age">Age</label><input type="text" id="age"></div>
+        <div><label for="list">Course</label>
+        <select id="list" multiple>
+            <option value="c++">C++</option>
+            <option value="c">C</option>
+            <option value="c#">C#</option>
+            <option value="java">JAVA</option>
+            <option value="js" selected>JS</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+        </select></div>
+        <input type="button" value="ADD" >
+        <input type="button" value="DELETE">
+    </form>
+
+    <p class="head">Your Data</p>
+    <div class="showData">
+        <div id="parent">
+        <div id="name">Name</div>
+        <div id="age">Age</div>
+        <div id="course">Course</div>
+        <div id="action">Action</div>
+    </div>
+</div>
+<input type="button" value="DELETE ALL">
+   <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+p.head{
+    font-size: 30px;
+    width: 40%;
+    margin-left: 30%;
+    background-color: rgb(95, 5, 84);
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+    color: aliceblue;
+    height: 40px;
+    vertical-align: middle;
+
+}
+select option{
+    color: rgb(95, 5, 84);
+    font-size: 15px;
+
+}
+select{
+    margin-left: 10px;
+    width: 80px;
+}
+form{
+  background-color: rgb(95, 5, 84);
+  color: aliceblue;
+  width: 40%;
+  margin-left: 30%;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+form input{
+    width: 60%;
+    margin-left: 5px;
+    border-radius: 4px;
+    height: 20px;
+    font-weight: bold;
+    color:rgb(95, 5, 84) ;
+}
+
+
+input[value="ADD"],[value="DELETE"]{
+    width: 20%;
+    height: 30px;
+    margin-left: 30px;
+    color: rgb(95, 5, 84);
+}
+form div{
+    width: 80%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.showData{
+    background-color: rgb(95, 5, 84);
+    color: aliceblue;
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20%;
+    min-height: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#parent{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(212, 204, 204);
+    color: rgb(95, 5, 84);
+
+}
+
+#parent #name{
+    width: 55%;
+    text-align: center;
+}
+#parent #age,#course,#action{
+    /* width: 15%; */
+    text-align: center;
+}
+
+input[value="DELETE ALL"]{
+width: 20%;
+margin-left: 40%;
+margin-top: 50px;
+height: 30px;
+color: aliceblue;
+font-size: 20px;
+font-weight: bold;
+background-color:rgb(95, 5, 84) ;
+}
+
+.newParent{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.FirstEl{
+    width:55%;
+    text-align: center;
+}
+
+/* .restOfEl{
+    width:15%;
+    text-align: center;
+} */
+
+.btn{
+    background-color: rgb(212, 204, 204);
+    color: rgb(95, 5, 84);
+    font-size: 15px;
+    border: 2px solid rgb(95, 5, 84);
+    cursor: pointer;
+}
+
